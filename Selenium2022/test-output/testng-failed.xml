@@ -5,8 +5,11 @@
     <classes>
       <class name="MercadoLibre">
         <methods>
-          <include name="searchProduct"/>
+          <include name="login"/>
+          <include name="finishTest"/>
           <include name="launchBrowser"/>
+          <include name="searchProduct"/>
+          <include name="loadPage"/>
         </methods>
       </class> <!-- MercadoLibre -->
     </classes>
