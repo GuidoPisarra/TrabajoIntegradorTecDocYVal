@@ -24,6 +24,7 @@ public class FacultySelectedTest {
 
 	public void launchTest() {
 		driver.navigate().to("https://www.unicen.edu.ar");
+		driver.manage().window().maximize();
 		String titulo = driver.getTitle();	
 		String textoEsperado = "Facultad de Ciencias Económicas";
 		
