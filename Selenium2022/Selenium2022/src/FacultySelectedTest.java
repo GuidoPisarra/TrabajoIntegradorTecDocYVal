@@ -9,11 +9,11 @@ import org.testng.asserts.Assertion;
 
 
 
-public class UnicenEnglishVersion {
+public class FacultySelectedTest {
 	private final WebDriver driver;
 	
 	    
-	public UnicenEnglishVersion() {
+	public FacultySelectedTest() {
 		
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();

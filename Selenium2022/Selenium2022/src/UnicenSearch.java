@@ -32,6 +32,7 @@ public class UnicenSearch{
 		
 	public void closeDriver() {
 		if(driver!=null) {
+			driver.close();
 			
 			System.out.println("Finalizo correctamente");
 		}
